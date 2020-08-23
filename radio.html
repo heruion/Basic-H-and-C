@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>单选按钮</title>
+</head>
+<body>
+    性别:
+    <input type="radio" name="question1" value="boy"/>男
+    <input type="radio" name="question1" value="girl"/>女
+
+    <!-- 单选按钮中name必须是一样的，如果name不一样会导致多选也能执行 -->
+
+    <!-- 复选框必须和label一起使用 label for="**"表示label指向id为**的复选框 -->
+    <input type="checkbox" id="checkbox01" value="复选框" checked="checked"/>
+    <label for="checkbox01">苹果</label>
+    <input type="checkbox" id="checkbox02" value="复选框" checked="checked"/>
+    <label for="checkbox02">香蕉i</label>
+    <input type="checkbox" id="checkbox03" value="复选框" checked="checked"/>
+    <label for="checkbox03">桃子</label>
+</body>
+</html>
